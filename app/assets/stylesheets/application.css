@@ -6,6 +6,10 @@ header {
   position: relative;
 }
 
+header, nav, h2, .main-visual, footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 .social i {
   display: inline-block;
   margin-left: 20px;
