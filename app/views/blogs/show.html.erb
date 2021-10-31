@@ -50,12 +50,12 @@
         <p class="blog-date">
           <%= @blog.created_at %>
           June 19, 2017
-          <!-- created_at部分 ここまで -->
         </p>
       </div>
       <%= image_tag "img/forest.jpg", class:"single-image" %>
       <p class="single-text">
         <%= @blog.body %>
+         <%= link_to "編集", edit_blog_path(@blog) %>
         The environment of rain forests is ideal for plants: An estimated<br>
         two-thirds of the world's plant species grow in the rain forest.<br>
         Plants in the rain forest grow very close together and contend<br>
@@ -79,7 +79,6 @@
         of the Amazon rain forest. There, it is pollinated by bees that<br>
         also visit orchids, and its seeds are spread by the agouti,<br>
         a small tree mammal.
-        <!-- body部分 ここまで -->
       </p>
       <a href="#">編集</a>
       <a href="#">削除</a>
